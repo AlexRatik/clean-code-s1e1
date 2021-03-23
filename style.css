@@ -18,8 +18,10 @@ body {
 }
 
 @media (max-width:768px) {
+
   .head { text-align: center;
-}
+  }
+
 }
 .middle-element {
   display: block;
@@ -127,7 +129,7 @@ li > .del:hover {
 
 /* Completed */
 #cmpl-tasks label {
-  text-decoration: line-through;
+  text-decoration: line-through
   color: #888;
 }
 
