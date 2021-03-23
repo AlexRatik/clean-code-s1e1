@@ -21,7 +21,7 @@ body {
   .head { text-align: center;
 }
 }
-.centered-element {
+.middle-element {
   display: block;
   width: 425px;
   margin: 0 auto 0;
@@ -113,20 +113,20 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-li > button.delete:hover {
+li > button.del:hover {
   color: #cf2323;
 }
-button.delete img {
+button.del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.del img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#cmpl-tasks label {
   text-decoration: line-through
   color: #888;
 }
