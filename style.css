@@ -152,3 +152,9 @@ li input[type=text] {
 .edit-mode label {
   display: none;
 }
+input.todo__input {
+  margin: -3px;
+}
+.todo__name.task {
+  margin: -3px;
+}
