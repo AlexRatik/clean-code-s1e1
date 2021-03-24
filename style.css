@@ -27,7 +27,7 @@ body {
   }
 
 }
-.middle-element {
+.main {
   display: block;
   width: 400px;
   margin: 0 auto 0;
@@ -95,7 +95,7 @@ label[for="new-task"] {
 #new-task {
   width: 318px;
 }
-p > button:hover {
+section > button:hover {
   color: #0fc57c;
 }
 
