@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,26 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css" media="screen">
   </head>
+
   <body>
+
     <div class="head">
       <img class ="head__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
       <a  class="head__link more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
+
     <main class="main">
+
       <section class="main__block add-elem"> 
         <label class="add-elem__title" for="new-task">Add Item</label>
         <input class="add-elem__input" id="new-task" type="text">
         <button class="add-elem__button_add">Add</button>
       </section>
+
       <section class="main__block todo">
         <h3 class="todo__title">Todo</h3>
         <ul class="todo__list" id="incmpl-tasks">
+
           <li class="todo__item">
             <input class="todo__checkbox" type="checkbox"> 
             <label class="todo__name task">Pay Bills</label>
@@ -31,6 +38,7 @@
               <img src="./remove.svg" alt="">
             </button>
           </li>
+
           <li class="todo__item edit-mode">
             <input class="todo_checkbox" type="checkbox">
             <label class="todo__name task">Go Shopping</label>
@@ -40,11 +48,14 @@
               <img src="./remove.svg" alt="">
             </button>
           </li>
+
         </ul>
       </section>
+
       <section class="main__block cmpl-block">
         <h3 class="cmpl-block__title">Completed</h3>
         <ul class="todo__list todo__list_competed" id="cmpl-tasks">
+
           <li class="todo__item">
             <input class="todo__checkbox" type="checkbox" checked>
             <label class="todo__name task">See the Doctor</label>
@@ -54,9 +65,14 @@
               <img src="./remove.svg" alt="">
             </button>
           </li>
+
         </ul>
       </section>
+
     </main>
+
     <script src="app.js"></script>
+
   </body>
+
 </html>
