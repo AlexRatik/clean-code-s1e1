@@ -21,8 +21,10 @@
 
       <section class="main__block add-elem"> 
         <label class="add-elem__title" for="new-task">Add Item</label>
-        <input class="add-elem__input" id="new-task" type="text">
-        <button class="add-elem__button_add">Add</button>
+        <div class="task-row-wrapper">
+          <input class="task" id="new-task" type="text">
+          <button class="add-elem__button_add">Add</button>
+        </div>
       </section>
 
       <section class="main__block todo">
@@ -32,7 +34,7 @@
           <li class="todo__item">
             <input class="todo__checkbox" type="checkbox"> 
             <label class="todo__name task">Pay Bills</label>
-            <input class="todo__input" type="text">
+            <input class="task" type="text">
             <button class="todo__button_edit edit">Edit</button>
             <button class="todo__button_delete del">
               <img src="./remove.svg" alt="">
